@@ -1,0 +1,219 @@
+WARNING:root:since tune() has not been called, arima model will be run with default hyperparameters
+WARNING:tensorflow:5 out of the last 7 calls to <function Model.make_train_function.<locals>.train_function at 0x000002121A7C0EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:5 out of the last 8 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002121A793F70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 9 calls to <function Model.make_train_function.<locals>.train_function at 0x0000021214CBBDC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002120D35DCA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_35212/4032630644.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_14540/4032630644.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_14540/3443954453.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:915: ConvergenceWarning: Optimization failed to converge. Check mle_retvals.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\statsmodels\tsa\holtwinters\model.py:83: RuntimeWarning: overflow encountered in matmul
+  return err.T @ err
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_38072/3443954453.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:tensorflow:5 out of the last 7 calls to <function Model.make_train_function.<locals>.train_function at 0x000001FC1D001790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:5 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001FC1AE52A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001FC1CCDF700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_38072/3443954453.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_38072/4032630644.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:py.warnings:C:\Users\shubendu.biswas\Anaconda3\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  return func(*args, **kwargs)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_38072/4032630644.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  newdf['Date'] = pd.to_datetime(newdf['Date'])
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_19440/84594635.py:3: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only
+  temp.drop("Date",1,inplace=True)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_19440/60573308.py:2: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only
+  temp.drop('Date',1)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_19440/604971865.py:3: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only
+  temp = temp.drop('Date',1)
+
+WARNING:py.warnings:C:\Users\SHUBEN~1.BIS\AppData\Local\Temp/ipykernel_19440/604971865.py:3: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only
+  temp = temp.drop('Date',1)
+
